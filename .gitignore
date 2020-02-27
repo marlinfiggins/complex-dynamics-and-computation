@@ -1,0 +1,25 @@
+# directories
+
+references/
+_minted-ComplexDynamicsandComputation/
+
+
+
+# latex
+
+*.aux
+*.fls
+*.log
+*.out
+*.fdb_latexmk
+*.gz
+*.toc
+
+# notebook
+
+.ipynb_checkpoints/
+
+
+# misc
+
+**/.DS_Store
