@@ -1,7 +1,7 @@
-def mandelbrot_d(z, maxiter, bailout):  # Iterate $f_c(0)$ until it escapes.
+def mandelbrot_d(z, maxiter):  # Iterate $f_c(0)$ until it escapes.
     c = z
     for n in range(maxiter):
-        if abs(z) > 2:  # If $\abs{z}> 2$, orbit escapes to $\infty$.
+        if abs(z) > 2:  # If $\abs{z}> 2$, orbit eventually escapes to $\infty$.
             return n
         z = z*z + c
     return 0

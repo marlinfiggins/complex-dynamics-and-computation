@@ -2,6 +2,7 @@
 
 references/
 _minted-ComplexDynamicsandComputation/
+manuscripts/Images
 
 
 
@@ -14,6 +15,7 @@ _minted-ComplexDynamicsandComputation/
 *.fdb_latexmk
 *.gz
 *.toc
+*.pdf
 
 # notebook
 
@@ -22,4 +24,4 @@ _minted-ComplexDynamicsandComputation/
 
 # misc
 
-**/.DS_Store
+.DS_Store
